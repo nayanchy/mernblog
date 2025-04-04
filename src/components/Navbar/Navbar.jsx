@@ -32,7 +32,7 @@ const Navbar = () => {
           )}
         </div>
         <div
-          className={`w-full h-[calc(100vh-4rem)] flex flex-col font-semibold gap-8 text-lg items-center justify-center absolute top-16 ${
+          className={`bg-white z-50 w-full h-[calc(100vh-4rem)] flex flex-col font-semibold gap-8 text-lg items-center justify-center absolute top-16 ${
             open ? "-right-0" : "-right-full"
           } transition-all ease-in-out`}
         >
