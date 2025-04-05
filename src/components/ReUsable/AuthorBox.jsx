@@ -3,7 +3,8 @@ import Image from "./Image";
 import { SiFacebook, SiInstagram } from "react-icons/si";
 const AuthorBox = () => {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="card-container">
+      <h2 className="text-xl font-semibold mb-4 text-gray-800">Author</h2>
       <div className="flex items-center gap-8">
         <div className="size-12 aspect-square">
           <Image

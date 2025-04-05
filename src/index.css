@@ -12,3 +12,7 @@ body {
 .animatedButton {
   animation-duration: 10000ms;
 }
+
+.card-container {
+  @apply p-4 bg-blue-50 rounded-lg shadow-md flex flex-col gap-4 mb-8;
+}

@@ -1,10 +1,15 @@
 import AuthorBox from "../components/ReUsable/AuthorBox";
+import CategoryList from "../components/ReUsable/CategoriesList";
+import PostMenuAction from "../components/ReUsable/PostMenuAction";
+import SearchComponent from "../components/ReUsable/SearchBox";
 
 const SinglePostSidebar = () => {
   return (
-    <div className="px-4 h-max sticky top-8">
-      <h1>Author</h1>
+    <div className="h-max sticky top-8">
+      <SearchComponent />
       <AuthorBox />
+      <PostMenuAction />
+      <CategoryList />
     </div>
   );
 };

@@ -34,7 +34,7 @@ const SinglePostPage = () => {
         </div>
       </div>
       {/* Content */}
-      <div className="flex flex-col md:flex-row gap-y-8">
+      <div className="flex flex-col md:flex-row gap-8">
         {/* Blog Content */}
         <div className="md:w-3/4 lg:text-lg flex flex-col gap-6 text-justify">
           <p>
